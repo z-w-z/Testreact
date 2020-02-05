@@ -16,11 +16,13 @@ class  ToItem extends Component{
     }
 
 }
+//PropTypes校验
 ToItem.propTypes = {
     test:PropTypes.string.isRequired,
     content:PropTypes.string,
     index:PropTypes.number,
 }
+//Props默认值
 ToItem.defaultProps = {
     test:'hello world'
 }
